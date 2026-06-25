@@ -6,7 +6,7 @@ int main(){
 
   printf("Qual o tamanho da quadra? ");
   scanf("%d", &k);
-  printf("Coordenadas de onde a bola caiu ");
+  printf("Coordenadas onde a bola caiu ");
   scanf("%d %d", &x, &y);
     
   if(y > k || y < 0){
